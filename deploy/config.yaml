@@ -1,0 +1,56 @@
+http_listen_addr: ""
+introspection_addr: ""
+log_level: ""
+tls: {}
+indexer:
+    connstring: ""
+    scanlock_retry: 0
+    layer_scan_concurrency: 0
+    migrations: false
+    scanner: {}
+    airgap: false
+matcher:
+    connstring: ""
+    indexer_addr: ""
+    migrations: false
+    period: ""
+    disable_updaters: false
+    update_retention: 2
+matchers:
+    names: nil
+    config: nil
+updaters:
+    sets: nil
+    config: nil
+notifier:
+    connstring: ""
+    migrations: false
+    indexer_addr: ""
+    matcher_addr: ""
+    poll_interval: ""
+    delivery_interval: ""
+    disable_summary: false
+    webhook: null
+    amqp: null
+    stomp: null
+auth: 
+  psk: nil
+trace:
+    name: ""
+    probability: null
+    jaeger:
+        agent:
+            endpoint: ""
+        collector:
+            endpoint: ""
+            username: null
+            password: null
+        service_name: ""
+        tags: nil
+        buffer_max: 0
+metrics:
+    name: ""
+    prometheus:
+        endpoint: null
+    dogstatsd:
+        url: ""
