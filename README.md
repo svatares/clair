@@ -39,3 +39,5 @@ See [CONTRIBUTING](.github/CONTRIBUTING.md) for details on submitting patches an
 ## License
 
 Clair is under the Apache 2.0 license. See the [LICENSE](LICENSE) file for details.
+
+test for rerunning the pipelines and deployment
